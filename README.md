@@ -1,8 +1,3 @@
-# Easy
-Um pequeno boilerplate feito com Gulp, Bootstrap, Sass e jQuery. 
+# SW-wiki
+Esse projeto tem como objetivo melhorar minhas habilidades com requisições Ajax e manipulações com jQuery. 
 
-# Download
-Clone o projeto e rode o npm install na raiz, ele instalará as dependências do projeto. 
-
-# Uso 
-A pasta resources contém os arquivos de desenvolvimento, a pasta dist receberá os arquivos minificados e prontos para publicação. 
