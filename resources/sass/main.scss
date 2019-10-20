@@ -1,0 +1,55 @@
+@import 'reset';
+@import 'variable';
+@import 'mixins';
+
+html{
+    font-size: 10px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/bg-sw.jpg") no-repeat center center fixed;
+    opacity: 0.95;
+    background-size: cover;
+    .main__content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 3.6rem;
+            font-weight: 700;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px 0px;
+        }
+        h2{
+            font-size: 2.4rem;
+            font-weight: 400;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    .main__input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        .input__data{
+            width: 450px;
+            height: 50px;
+            border: 1px solid #ebebeb;
+            padding-left: 10px;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .input__button{
+            width: 100px;
+            height: 50px;
+            border: 1px solid #ebebeb;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}

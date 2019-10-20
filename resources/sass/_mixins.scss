@@ -1,0 +1,70 @@
+@import 'variable';
+
+//bootstrap breakpoints style - mobile first
+@mixin screen-min-sm {
+    @media (min-width: $screen-mobile-sm) {
+        @content;
+    }
+ }
+
+ @mixin screen-min-md {
+    @media (min-width: $screen-mobile-md) {
+        @content;
+    }
+ }
+ 
+ @mixin screen-min-lg {
+    @media (min-width: $screen-desk-lg) {
+        @content;
+    }
+ }
+ 
+ @mixin screen-min-xl {
+    @media (min-width: $screen-desk-xl) {
+        @content;
+    }
+ }
+
+//max width breakpoints 
+@mixin screen-max-sm {
+    @media (max-width: $screen-mobile-sm) {
+        @content;
+    }
+ }
+
+ @mixin screen-max-md {
+    @media (max-width: $screen-mobile-md) {
+        @content;
+    }
+ }
+ 
+ @mixin screen-max-lg {
+    @media (max-width: $screen-desk-lg) {
+        @content;
+    }
+ }
+ 
+ @mixin screen-max-xl {
+    @media (min-width: $screen-desk-xl) {
+        @content;
+    }
+ }
+
+ //min and max breakpoints
+ @mixin screen-min-sm {
+    @media (min-width: $screen-mobile-sm) and (max-width: $screen-mobile-md){
+        @content;
+    }
+ }
+
+ @mixin screen-min-md {
+    @media (min-width: $screen-mobile-md) and (max-width: $screen-desk-lg){
+        @content;
+    }
+ }
+ 
+ @mixin screen-min-lg {
+    @media (min-width: $screen-desk-lg) and (max-width: $screen-desk-xl){
+        @content;
+    }
+ }
